@@ -1,0 +1,402 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+html{
+    max-width: 1200px;
+    font-size: 62.5%;
+}
+
+body{
+    color: #222222;
+    font-family: "Open Sans","ヒラギノ角ゴ ProN W3";
+    font-size: 1.6rem;
+    line-height: 2;
+    text-align: justify;
+}
+
+/* header */
+
+.wrap{
+    margin: auto;
+}
+
+.header{
+    background-color: #fff;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.logo_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    margin: 0 50px 0;
+}
+
+.logo_menu>img{
+    width: 350px;
+    height: auto;
+}
+
+.menu_list{
+    display: flex;
+}
+
+.menu_item{
+    line-height: 1;
+    padding: 50px 0 50px 50px;
+}
+
+.menu_item>a{
+    color: #222222;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner>img{
+    max-width: 1200px;
+}
+
+.banner_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafafa;
+}
+
+.headline{
+    line-height: 1;
+    font-size: 3.0rem;
+    font-weight: bold;
+    padding: 0 0 30px 0;
+}
+
+.title{
+    line-height: 1;
+    font-size: 2.4rem;
+}
+
+/* about */
+
+#ABOUT{
+    margin: auto;
+}
+
+.about{
+    padding: 60px 0 60px;
+}
+
+.about_title{
+    line-height: 1;
+    margin: 0 0 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #ffd61a;
+}
+
+.about_subtitle{
+    line-height: 1;
+    margin: 0 0 60px;
+}
+
+.about_text1{
+    line-height: 1;
+    margin: 0 0 40px;
+}
+
+.about_text2{
+    margin: 40px 0 40px;
+}
+
+.about_text3{
+    line-height: 1;
+    margin: 0 0 40px;
+}
+
+.about_text4{
+    margin: 0 0 80px;
+}
+
+.about_image{
+    display: flex;
+}
+
+.about_image>img{
+    max-width: 300px;
+}
+
+/* course */
+
+.course_title{
+    line-height: 1;
+    margin: 0 0 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.course_subtitle{
+    text-align: left;
+    line-height: 1;
+    margin: 0 0 40px;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.course_text{
+    padding: 0 0 60px;
+}
+
+.course1{
+    display: flex;
+}
+
+.course1_image{
+    display: flex;
+    width: 600px;
+}
+
+.course1_image>img{
+    width: 600px;
+}
+
+.course1_text{
+    width: 600px;
+    background-color: #fafafa;
+    padding: 120px 50px 120px;
+}
+
+.course2{
+    display: flex;
+}
+
+.course2_image{
+    display: flex;
+    width: 600px;
+}
+
+.course2_image>img{
+    width: 600px;
+}
+
+.course2_text{
+    width: 600px;
+    background-color: #fafafa;
+    padding: 120px 50px 120px 100px;
+}
+
+.course3{
+    display: flex;
+}
+
+.course3_image{
+    display: flex;
+    width: 600px;
+}
+
+.course3_image>img{
+    width: 600px;
+}
+
+.course3_text{
+    width: 600px;
+    background-color: #fafafa;
+    padding: 120px 50px 120px;
+}
+
+/* news */
+
+.news_title{
+    line-height: 1;
+    margin: 60px 0 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffd61a;
+}
+
+.news_subtitle{
+    line-height: 1;
+    padding: 0 0 60px;
+    font-size: 1.6rem;
+}
+
+.news_list{
+    display: flex;
+    padding: 0 90px 60px;
+    max-width: 1200px;
+}
+
+.news_item{
+    font-size: 1.4rem;
+    width: 300px;
+    padding: 0 0 0 30px;
+
+}
+
+.news_item>img{
+    width: 300px;
+    padding: 0 0 30px;
+}
+
+.date{
+    line-height: 1;
+    padding: 0 0 23px;
+}
+
+.button{
+    display: block;
+    width: 300px;
+    line-height: 1;
+    margin: auto;
+    padding: 21px 0;
+    font-size: 1.8rem;
+    background-color: #ffd61a;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.button:hover{
+    background: #13c3ac;
+}
+
+/* access */
+
+#ACCESS{
+    background-color: #fafafa;
+}
+
+.access_title{
+    line-height: 1;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 60px 0 30px;
+    padding: 60px 0 0;
+    text-transform: uppercase;  
+}
+
+.access_subtitle{
+    line-height: 1;
+    padding: 0 0 60px;
+}
+
+.company{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1;
+    padding: 0 0 30px;
+}
+
+#ACCESS>img{
+    width: 1200px;
+    height: auto;
+    margin: 0 0 60px;
+}
+
+.company_info{
+    width: 15%;
+    padding: 0 0 30px 35%;
+}
+
+.company_detail{
+    width: 50%;
+}
+
+/* contact */
+
+.contact_title{
+    line-height: 1;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 60px 0 30px;
+    text-transform: uppercase;
+}
+
+.contact_subtitle{
+    margin: 0 0 60px;
+}
+
+.contact_text1{
+    margin: 0 0 30px;
+}
+
+.contact_text2{
+    margin: 0 0 70px;
+}
+
+.form_wrap{
+    width:650px;
+    margin: auto;
+}
+
+.form_inner{
+    display: flex;
+    width: 750px;
+    flex-wrap: wrap;
+    margin: 0 0 30px;
+    padding: 0 30px 0;
+}
+
+.form_title{
+    width: 160px;
+    padding: 8px 64px 0px 16px;
+    margin: 0 0 0 0;
+    border: 1px solid #ccc;
+    border-left: none;
+    line-height: 1.6;
+}
+
+.form_item{
+    width: 400px;
+    border: 1px solid #ccc;
+    border-right: none;
+    padding: 8px 8px 8px;
+}
+
+.form_item.check_radio{
+    height: 160px;
+}
+
+.form_item.check_radio>label{
+    line-height: 1;
+    padding: 0 0 24px;
+}
+
+.form_item.textarea{
+    height: 100px;
+}
+
+select{
+    width: 328px;
+}
+
+label{
+    display: block;
+    
+}
+
+.form_parts{
+    box-sizing: border-box;
+    width: 328px;
+    border: solid 1px #bfbfbf;
+    font-size: 1.6rem;
+    padding: 8px 8px 8px;
+}
+
+/* footer */
+
+.footer{
+    line-height: 1;
+    background-color: #707070;
+    color: #fff;
+    padding: 30px 0 30px;
+    margin: 140px 0 0;
+}
